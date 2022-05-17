@@ -1,0 +1,115 @@
+body {
+	 
+	background-color: aquamarine;
+}
+
+.screen{
+    display: inline-block;
+	margin: 5px;
+	width: 94%;
+	height: 75px;
+	font-size: 27px;
+    font-weight: bold;
+    background-color: rgb(158, 154, 154);
+	
+	border: 3px solid white;
+}
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 60px;
+	height:123px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: rgb(141, 240, 128);
+  
+}
+
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 4px 4px auto;
+	width: 60px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+	
+  
+}
+.button2{
+	cursor: pointer;
+	display: inline-block;
+	margin: 4px 4px auto;
+	width: 123px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+	background-color: rgb(240, 128, 165);
+}
+.button3{
+	background-color:rgb(240, 128, 165);
+	cursor: pointer;
+	display: inline-block;
+	margin: 4px 4px auto;
+	width: 60px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+}
+
+.button:active, .allclearButton:active,.equalButton:active,.button2:active,.button3:active{
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.button:hover,.equalButton:hover,.button2:active,.button3:active {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	
+}
+
+.allclearButton {
+  border-radius: 10px;
+	color: #FFF;
+    background-color: rgb(128, 0, 124);
+	width: 123px;
+	height: 57px;
+	font-weight: bold;
+	font-size: large;
+	
+
+}
+
+h1{
+	color:#140a04;
+	font-size: 52px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+.box{
+		background: gray;
+		background-size: cover;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%);
+        border: 5px solid black;
+        height:60%;
+        width:24%;
+		
+}
